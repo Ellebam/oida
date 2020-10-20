@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import LogoInHeader from './HeaderSection/LogoInHeader';
+library.add(fab);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Nur zur Info
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <LogoInHeader/>
+        
+       
+      
       </header>
     </div>
   );
