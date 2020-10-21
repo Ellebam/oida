@@ -1,17 +1,14 @@
 import React from 'react';
-import {FontAwesomeIcon}  from '@fortawesome/react-fontawesome'
 
-function LogoInHeader(){
 
-    return(
-        <div className='logo-container'>
-             <p className = "logo-title">Energieheilkunde by Feresteh</p>
+export default function LogoInHeader(){
+        const element = (
+                    <div className='logo-container'>
+                        <h1 className = "logo-title">Energieheilkunde by Feresteh</h1>
+                        </div>
+);
+
+    return element;
+        
     
-    
-    
-    </div>
-    
-    
-    );
 }
-export default LogoInHeader;
