@@ -58,6 +58,19 @@ body, *, *:before, *:after{
 
 }
 
+html, body{
+  height:100%;
+  
+}
+body{
+  background-color:#f7cbbd9a ;
+}
+
+img{
+  border-radius: 10px;
+  padding: 0.2em;
+}
+
 
 
 
@@ -68,7 +81,7 @@ body, *, *:before, *:after{
 }
 
 .App-header {
-  background-color: #f7cbbd9a;
+  
   display: flex;
   flex-direction: column;
   
@@ -118,13 +131,28 @@ body, *, *:before, *:after{
 
 /*================= * Main Area Opening Page  * =================*/
   .main-container{
-    width:100%;
+    
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin: auto;
     position: relative;
-    min-height: 100%;
-    margin:0%;
-    background-color: #f7cbbd9a;
+    
+    width:90%;
+    
     overflow: hidden;
+  }
+
+  .basic-article{
+    background-color: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 1em;
+    box-shadow: 0px  0px 18px -5px black;
+    width: 80%;
+
+
   }
  
   
@@ -136,7 +164,6 @@ body, *, *:before, *:after{
   width: 100%;
   display: block;
   height: 2rem;
-  background-color: #f7cbbd4b;
   position: absolute;
   bottom: 0;
  

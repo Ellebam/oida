@@ -14,8 +14,10 @@ function App() {
         <HeaderSection/>
 
       </header>
-
-     <MainContainer/>
+      
+        <MainContainer/>
+      
+     
       
       <footer className='App-footer'>
         <FooterSection/>
