@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css'; 
-import HeaderSection from './HeaderSection/HeaderSection';
+import FooterSection from './Footer/Footer';
+import HeaderSection from './Header/HeaderSection';
+import MainContainer from './MainAreaOpeningPage/MainContainer';
 
 
 
@@ -13,16 +15,13 @@ function App() {
 
       </header>
 
-      <div className='main-area'>
-        <section>
-            <p>oida</p>
-        </section>
-      </div>
-      <footer>
-        <p>oida</p>
+     <MainContainer/>
+      
+      <footer className='App-footer'>
+        <FooterSection/>
       </footer>
     </div>
   );
-}
+  }
 
 export default App;

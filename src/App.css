@@ -64,6 +64,7 @@ body, *, *:before, *:after{
 /*================= * Header Area * =================*/
 .App {
   text-align: center;
+  
 }
 
 .App-header {
@@ -73,7 +74,6 @@ body, *, *:before, *:after{
   
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
   position: relative;
   overflow: hidden;
   top: -100%;
@@ -84,12 +84,11 @@ body, *, *:before, *:after{
 
 .logo-container{
   width: 30%;
-  display: inline-block;
+  
   padding-top:0.5em;
-
-  
-  
+  margin: auto;
 }
+
 
 
 
@@ -101,17 +100,46 @@ body, *, *:before, *:after{
   color: #030100;
   float: left;
   
- font-size: 3vw;
+ 
  
   
   
   
 }
 
-.App-header{
-  border:solid red 2px;
+.menu-button-container{
+ 
+  float: right;
+  margin: 1em;
+  width: 8%;
+  
+  
+  }
+
+/*================= * Main Area Opening Page  * =================*/
+  .main-container{
+    width:100%;
+    margin: auto;
+    position: relative;
+    min-height: 100%;
+    margin:0%;
+    background-color: #f7cbbd9a;
+    overflow: hidden;
+  }
  
   
+
+
+/*================= * Footer Area * =================*/
+
+.App-footer{
+  width: 100%;
+  display: block;
+  height: 2rem;
+  background-color: #f7cbbd4b;
+  position: absolute;
+  bottom: 0;
+ 
 }
 
 /*================= * Clearfix * =================*/
