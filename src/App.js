@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css'; 
 import FooterSection from './Footer/Footer';
 import HeaderSection from './Header/HeaderSection';
-import MainContainer from './MainAreaOpeningPage/MainContainer';
+import MainContainer from './MainAreaPages/MainContainer';
+
 
 
 
@@ -16,6 +17,7 @@ function App() {
       </header>
       
         <MainContainer/>
+        
       
      
       
@@ -24,6 +26,8 @@ function App() {
       </footer>
     </div>
   );
-  }
 
+  
+  }
+ 
 export default App;

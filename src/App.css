@@ -77,6 +77,7 @@ img{
 /*================= * Header Area * =================*/
 .App {
   text-align: center;
+  position: relative;
   
 }
 
@@ -138,22 +139,34 @@ img{
     box-sizing: border-box;
     margin: auto;
     position: relative;
-    
+    max-width: 1100px;
     width:90%;
-    
     overflow: hidden;
+  }
+
+  .main-container :last-child{
+    margin-bottom: 3em;
+  }
+
+  .main-section article > img :nth-child(odd){
+    float: right;
   }
 
   .basic-article{
     background-color: #ffffff;
     overflow: hidden;
     border-radius: 10px;
-    margin-top: 1em;
+    margin: auto;
+    margin-top: 1.5em;
     box-shadow: 0px  0px 18px -5px black;
     width: 80%;
-
-
   }
+
+
+  .basic-article img.even{
+    float: right;
+  }
+  
  
   
 
